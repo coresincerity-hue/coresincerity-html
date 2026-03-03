@@ -156,3 +156,13 @@ padding: 40px 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.linkedin-icon {
+    width: 15px;      /* adjust size */
+    height: auto;
+    transition: 0.3s ease;
+}
+
+.linkedin-icon:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
