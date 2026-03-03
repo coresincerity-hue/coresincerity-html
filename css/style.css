@@ -1,0 +1,112 @@
+body {
+font-family: 'Segoe UI', sans-serif;
+margin: 0;
+}
+
+.navbar {
+background: #0b0f3c;
+}
+
+.nav-link.active {
+background: white;
+color: #0b0f3c !important;
+border-radius: 6px;
+padding: 6px 15px;
+}
+
+.hero {
+height: 100vh;
+background: linear-gradient(rgba(10,15,50,0.8), rgba(30,100,200,0.8)),
+url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d') center/cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero h1 {
+font-size: 50px;
+font-weight: 700;
+}
+
+.btn-custom {
+background: #ff7a00;
+border: none;
+padding: 12px 30px;
+color: white;
+}
+
+.section {
+padding: 80px 0;
+}
+
+.section-title {
+font-size: 36px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+.service-card {
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+transition: 0.3s;
+background: white;
+}
+
+.service-card:hover {
+transform: translateY(-8px);
+}
+
+.about-hero,
+.contact-hero {
+padding: 100px 0 60px 0;
+background: linear-gradient(135deg,#0f1b63,#1e6ad6);
+}
+
+.contact-card {
+background: white;
+padding: 40px;
+border-radius: 20px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+margin-bottom: 20px;
+}
+
+.footer {
+background: #0b0f3c;
+color: white;
+padding: 40px 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.85);
+    transition: 0.4s ease;
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    color: #fff !important;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: 0.3s ease;
+}
+
+/* Animated underline */
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background-color: #00ff22;
+    transition: 0.4s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00c6ff !important;
+}
